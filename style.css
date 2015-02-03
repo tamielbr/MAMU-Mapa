@@ -1,0 +1,35 @@
+/*
+Theme Name: MAMU
+Theme URI: https://github.com/cardume/jeo
+Author: Tel amiel
+Author URI: http://www.amiel.info
+Description: Mapeamento de coletivos, child-theme de JEO
+Version: 0.1
+Template: jeo
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: black, white, purple, light, four-columns, two-columns, responsive-layout, translation-ready, theme-options
+*/
+     
+/*Small icon for pages, category-pages, and posts*/
+.smallicon {
+     float: right;
+     margin-right: 30px;
+     width: 200px;
+}
+
+.largeicon {
+     float: left;
+     width: 200px;
+     padding-top: 10px;
+     padding-bottom: 30px;
+     
+}
+
+.socialicon {
+     width: 45px;
+     height: 45px;
+     -webkit-box-shadow: 0 8px 6px -6px black;
+     -moz-box-shadow: 0 8px 6px -6px black;
+     box-shadow: 0 8px 6px -6px black;
+}

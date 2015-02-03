@@ -1,0 +1,56 @@
+/*Reducing header size from 125px*/
+.displaying-map #masthead {
+     height: 30px; 
+}
+
+/*Reduce map size */
+.home .mapgroup-container,.single-map .mapgroup-container,.single-map-group .mapgroup-container,.home .map-container,.single-map .map-container,.single-map-group .map-container {
+	height: 40%; /* era 85% CHANGE */
+}
+
+
+/*Color changes to posts and boxes*/
+.posts-section .posts-list article .actions {
+	background: #9370DB;
+	background: -moz-linear-gradient(center bottom, #483D8B 0, #9370DB 100%);
+	background: -ms-linear-gradient(bottom, #483D8B, #9370DB);
+	background: -o-linear-gradient(#9370DB, #483D8B);
+	background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #483D8B), color-stop(1, #9370DB));
+	border-radius: 0 0 5px 5px;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#9370DB', endColorstr='#483D8B', GradientType=0);
+}
+
+.displaying-map #masthead {
+     background: rgba(255,255,255,0);
+     height: 25px;
+}
+
+#masthead {
+     background: white;
+}
+
+#masthead #masthead-nav {
+     border-radius: 0px 0px 0px 4px;
+     padding: 7px;
+     position: inherit;
+}
+
+.single-post-header {
+     padding: 0px;
+     margin: 0px;
+     background: white;
+}
+
+h1 {
+     padding-top: 20px;
+     padding-bottom: 15px;
+}
+
+a:hover {
+     text-decoration: none;
+     color: #9370DB;
+}
+
+.posts-section .navigation {
+     text-align: left;
+}
